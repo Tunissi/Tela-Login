@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <div id="container" class="container">
+        <!--FORM SECTION-->
+        <div class="row">
+            <!--Formulário de criar conta-->
+            <div class="col align-intens-center flex-col sing-up">
+                <div class="form-wrapper align-intens-center">
+                    <div class="form sing-up">
+                        <div class="input-group">
+                            <i class="fa fa-user"></i>
+                            <input type="text" placeholder="Usuário">
+                        </div>
+                        <div class="input-group">
+                            <i class="fa fa-envelope"></i>
+                            <input type="text" placeholder="E-mail">
+                          </div>
+                          <div class="input-group">
+                            <i class="fa fa-lock"></i>
+                            <input type="text" placeholder="Senha">
+                            </div>
+                            <div class="input-group">
+                                <i class="fa fa-lock"></i>
+                                <input type="text" placeholder="Confimer sua Senha ">
+                            </div>
+                            <button>
+                                Criar Conta
+                            </button>
+                            <p>
+                                <span>
+                                    Já tem uma conta
+                                </span>
+                                <b onclick="toggle()" class="pointer">
+                                Entre Aqui
+                                </b>
+                            </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- Fim do formulário de registro-->
+
+        <!--Formulário logar -->
+
+        <div class="col align-intens-center flex-col sing-in">
+            <div class="form-wrapper align-intens-center">
+                <div class="form sing-in">
+                    <div class="input-group">
+                        <i class="fa fa-user"></i>
+                        <input type="text" placeholder="Usuário">
+                    </div>
+                    <div class="input-group">
+                        <i class="fa fa-lock"></i>
+                        <input type="text" placeholder="Senha">
+                    </div>
+                    <button>
+                        Entrar
+                    </button>
+                    <p>
+                        <b>
+                            Esqueceu a Senha?
+                        </b>
+                    </p>
+                    <p>
+                        <span>
+                            Não tem conta?
+                        </span>
+                        <b onclick="toggle()" class="pointer">
+                             Crie sua conta AQUI
+                        </b>
+                    </p>
+                </div>
+
+            </div>
+            <div class="form-wrapper">
+
+            </div>
+
+        </div>
+
+        <!--Fim do formulário logar-->
+    </div>
+    <!--Animção-->
+
+    <div class="row content-row">
+        <!--Texto da Animação bem vindo-->
+        <div class="col align-intens-center flex-col">
+
+            <div class="text sing-in">
+                <h2>
+                    Bem vindo
+                </h2> 
+            </div>
+            <div class="img sing-in">
+                <img src="login.png">
+            </div>
+        </div>
+        <!--Fim do conteudo-->
+
+        <!--Animação de criação de conta-->
+        <div class="col align-intens-center flex-col">
+            <div class="text sing-up">
+                <h2>
+                    Criar Conta
+                </h2>
+            </div>
+            <div class="img sing-up">
+                <img src="criarconta.png">
+            </div>
+        </div>
+    </div>
+   
+    <script src="main.js"></script>
+</body>
+</html>
